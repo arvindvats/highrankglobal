@@ -2897,11 +2897,19 @@ final modifications and responsiveness for full website!
   }
 }
 
+/* Overflow content issue in mobile screens  */
+@media screen and (max-width: 800px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
+
 /* Overflow content issue  */
-html,
+/* html,
 body {
   overflow-x: hidden;
-}
+} */
 
 @media screen and (max-width: 340px) {
   #home,
