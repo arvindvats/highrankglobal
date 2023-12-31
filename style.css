@@ -2953,6 +2953,8 @@ new changes made in GitHub mobile app
   .navbar { 
     position: sticky;
     top: 0;
+    left: 0;
+    z-index; 99;
   }
 }
 
