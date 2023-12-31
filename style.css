@@ -2935,7 +2935,11 @@ new changes made in GitHub mobile app
 #service, #service h2 , .service-main { 
   padding-top: 0rem; 
   margin-top: 0rem;
-margin-top: -4rem;
+  margin-top: -6rem;
+}
+
+.hero-bg-wave { 
+  height: 4rem;
 }
 
 }
