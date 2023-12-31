@@ -2931,19 +2931,27 @@ new changes made in GitHub mobile app
 */
 
 @media screen and (max-width: 992px) {
- 
-#service, #service h2 , .service-main { 
-  /* padding-top: 0rem; 
-  margin-top: 0rem;
-  margin-top: 1rem; */
+/*   #service, #service h2 , .service-main { 
+    padding-top: 0rem; 
+    margin-top: 0rem;
+    margin-top: 1rem; 
+  } */
+  
+  .main-bg-wave {
+    min-height: 25vh;
+    background: url("./heroWave14.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
-.main-bg-wave {
-  min-height: 10vh;
-  background: url("./heroWave14.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
+@media screen and (max-width: 350px) {
+  .main-bg-wave {
+    min-height: 10vh;
+    background: url("./heroWave14.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
