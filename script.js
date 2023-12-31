@@ -160,15 +160,32 @@ backToTop.addEventListener("click", function (event) {
 
 // Navbar sticking to top hardcoded in JavaScript since CSS solution is having issues
 // JavaScript to make the navbar sticky on scroll
-window.addEventListener("scroll", function () {
-  var navbar = document.querySelector("header"); // Change 'header' to your navbar's class or ID
-  var stickyClass = "sticky-navbar"; // This is the class you'll add for the sticky effect
 
-  if (window.pageYOffset > 0) {
-    // Adjust 100 to the scroll position you desire
-    navbar.classList.add(stickyClass);
-  } else {
-    navbar.classList.remove(stickyClass);
+// old
+// window.addEventListener("scroll", function () {
+//   var navbar = document.querySelector("header"); // Change 'header' to your navbar's class or ID
+//   var stickyClass = "sticky-navbar"; // This is the class you'll add for the sticky effect
+
+//   if (window.pageYOffset > 350) {
+//     // Adjust 100 to the scroll position you desire
+//     navbar.classList.add(stickyClass);
+//   } else {
+//     navbar.classList.remove(stickyClass);
+//   }
+// });
+
+// new
+window.addEventListener("scroll", function () {
+  // Only apply the sticky navbar in screens with max-width of 992px
+  if (window.innerWidth <= 992) {
+    var navbar = document.querySelector("header"); // Change 'header' to your navbar's class or ID
+    var stickyClass = "sticky-navbar"; // This is the class you'll add for the sticky effect
+
+    if (window.pageYOffset > 350) {
+      navbar.classList.add(stickyClass);
+    } else {
+      navbar.classList.remove(stickyClass);
+    }
   }
 });
 
