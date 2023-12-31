@@ -2950,14 +2950,7 @@ new changes made in GitHub mobile app
     margin-top: -4.8rem;
   }
 
-  header, nav, .navbar { 
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    overflow: hidden;
-   
-  }
+  
 }
 
 @media screen and (max-width: 450px) {
