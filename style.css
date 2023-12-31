@@ -2949,6 +2949,11 @@ new changes made in GitHub mobile app
   #service {
     margin-top: -4.8rem;
   }
+
+  header { 
+    position: sticky;
+    top: 0;
+  }
 }
 
 @media screen and (max-width: 450px) {
