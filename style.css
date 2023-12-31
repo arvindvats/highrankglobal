@@ -2935,11 +2935,11 @@ new changes made in GitHub mobile app
 #service, #service h2 , .service-main { 
   padding-top: 0rem; 
   margin-top: 0rem;
-  margin-top: -6rem;
+  margin-top: -2rem;
 }
 
 .main-bg-wave {
-  min-height: 10vh;
+  min-height: 20vh;
   background: url("./heroWave14.svg");
   background-size: cover;
   background-repeat: no-repeat;
