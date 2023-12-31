@@ -3025,3 +3025,8 @@ new changes made in GitHub mobile app
   width: 100%;
   z-index: 1000;
 }
+
+
+#contact {
+  overflow-x: hidden;
+}
