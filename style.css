@@ -2938,8 +2938,8 @@ new changes made in GitHub mobile app
   margin-top: -6rem;
 }
 
-.hero-bg-wave { 
-  height: 4rem;
+.hero-bg-wave img { 
+  height: 4rem !important ;
 }
 
 }
