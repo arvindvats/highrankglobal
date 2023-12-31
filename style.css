@@ -2933,9 +2933,9 @@ new changes made in GitHub mobile app
 @media screen and (max-width: 992px) {
  
 #service, #service h2 , .service-main { 
-  padding-top: 0rem; 
+  /* padding-top: 0rem; 
   margin-top: 0rem;
-  margin-top: 1rem;
+  margin-top: 1rem; */
 }
 
 .main-bg-wave {
