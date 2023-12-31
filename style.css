@@ -105,8 +105,7 @@ NEW Navbar Bootstrap 5
 header {
   position: sticky;
   top: 0;
-/* z-index: 500; */
-  z-index: 2;
+  z-index: 500;
 }
 
 /* header {
@@ -3017,19 +3016,12 @@ new changes made in GitHub mobile app
   #service {
     margin-top: 2rem;
   }
-
-  .sticky-navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000; 
-}
 }
 
 /* Navbar Stick top CSS for JavaScript code */
-/* .sticky-navbar {
+.sticky-navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000; 
-} */
+  z-index: 1000;
+}
