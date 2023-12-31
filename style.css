@@ -106,7 +106,7 @@ header {
   position: sticky;
   top: 0;
 /* z-index: 500; */
-  z-index: 3;
+  z-index: 2;
 }
 
 /* header {
@@ -3017,12 +3017,19 @@ new changes made in GitHub mobile app
   #service {
     margin-top: 2rem;
   }
-}
 
-/* Navbar Stick top CSS for JavaScript code */
-.sticky-navbar {
+  .sticky-navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000; /* Adjust z-index as needed */
+  z-index: 1000; 
 }
+}
+
+/* Navbar Stick top CSS for JavaScript code */
+/* .sticky-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; 
+} */
