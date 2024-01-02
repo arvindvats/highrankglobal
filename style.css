@@ -907,7 +907,8 @@ Pricing Section
   margin: 1rem;
   margin-top: 0rem;
   margin-bottom: 1rem;
-  padding: 2rem 1rem 2rem 1rem;
+  /* padding: 2rem 1rem 2rem 1rem; */
+  padding: 2rem 0rem 2rem 0rem;
 }
 
 .price-column {
@@ -916,11 +917,13 @@ Pricing Section
   padding: 2rem;
   flex-grow: 1;
   flex-basis: 0;
-  max-width: 39.5rem;
+  /* max-width: 39.5rem; */
+  max-width: 45rem;
   border-radius: 0.8rem;
   transform: scale(0.98);
   transform: scale(1);
-  margin: 0rem 1.5rem;
+  /* margin: 0rem 1.5rem; */
+  margin: 0rem 0.8rem;
   transition: 0.5s ease-in-out;
 }
 
@@ -1132,7 +1135,7 @@ Pricing Section
   font-weight: bold;
   transition: 100ms;
   transform: scale(1);
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   background-color: rgba(33, 37, 41, 0.916);
   color: white;
   transition: 0.3s;
@@ -1146,43 +1149,6 @@ Pricing Section
 .cta:hover,
 .cta:focus {
   transform: scale(1.1);
-}
-
-.price-img {
-  height: 12rem;
-  width: 26.5rem;
-  margin: auto;
-  border-radius: 1rem;
-  margin-bottom: 3rem;
-}
-
-.price-img.basic-img {
-  background: url("./Unsplash_images/pricing_section/starter_bike.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center 85%;
-  background-color: gray;
-  background-color: transparent;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.734);
-}
-
-.price-img.professional-img {
-  background: url("./Unsplash_images/pricing_section/professional_car.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center 75%;
-  background-color: black;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.734);
-}
-
-.price-img.enterprise-img {
-  background: url("./Unsplash_images/pricing_section/enterprise_rocket_gold.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center 20%;
-  background-color: rgba(88, 64, 5, 0.847);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.734);
 }
 
 @media screen and (max-width: 1020px) {
@@ -1230,7 +1196,7 @@ Pricing Section
   }
 
   .feature {
-    width: 90%;
+    width: 100%;
     margin: 0.7rem auto;
   }
 }
@@ -1251,7 +1217,7 @@ Pricing Section
   height: 0.3rem !important;
   background: linear-gradient(to right, gold, goldenrod, red);
   margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 5rem;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.601);
   opacity: 100%;
 }
@@ -1262,11 +1228,20 @@ Pricing Section
 
 #pricing .divider {
   margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 #pricing .cta {
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
+  margin-top: 7.8rem;
+}
+
+#pricing .popular .cta {
+  margin-top: 4.7rem;
+}
+
+#pricing .premium-price .cta {
+  margin-top: 2rem;
 }
 
 .price-main {
@@ -1283,12 +1258,12 @@ Pricing Section
 }
 
 #pricing .feature {
-  max-width: 30rem;
+  max-width: 36rem;
   margin: 1rem auto;
 }
 
 #pricing .popular .feature {
-  max-width: 30rem;
+  max-width: 36rem;
   margin: 1rem auto;
 }
 
@@ -1319,14 +1294,92 @@ Pricing Section
 
 @media screen and (max-width: 992px) {
   .price-main {
-    min-height: 265vh;
+    /* min-height: 265vh; */
+    min-height: 480vh;
   }
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (max-width: 500px) {
   .price-main {
-    min-height: 280vh;
+    min-height: 480vh;
   }
+}
+
+@media screen and (max-width: 450px) {
+  .price-main {
+    min-height: 360vh;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .price-main {
+    min-height: 380vh;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .price-main {
+    min-height: 415vh;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .price-main {
+    min-height: 415vh;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .price-main {
+    min-height: 525vh;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .price-main {
+    min-height: 550vh;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .price-main {
+    min-height: 575vh;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .price-main {
+    min-height: 640vh;
+  }
+}
+
+/* @media screen and (max-width: 385px) {
+  .price-main {
+    min-height: 530vh;
+  }
+} */
+
+/* Pricing new updated feature list modifications! */
+.inner-inactive {
+  text-decoration: line-through;
+  /* color: rgb(226, 226, 226); */
+  /* color: rgb(245, 199, 208); */
+  color: rgb(255, 176, 192);
+}
+
+.inner-active {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.699);
+  color: white;
+  opacity: 100%;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.5rem;
+  text-shadow: 1px 1px 1px black;
+}
+
+.inner-active:hover {
+  color: rgb(191, 255, 132);
+  cursor: hover;
 }
 
 /* --------------------------------------------------------------------------------
