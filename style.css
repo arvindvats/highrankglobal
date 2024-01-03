@@ -991,7 +991,7 @@ Pricing Section
     transparent 100%
   ); */
 
-  background: linear-gradient(
+  /* background: linear-gradient(
     45deg,
     transparent 0%,
     transparent 30%,
@@ -1000,6 +1000,18 @@ Pricing Section
     transparent,
     rgba(255, 217, 0, 0.612) 80%,
     transparent 80%,
+    transparent 100%
+  ); */
+
+  background: linear-gradient(
+    45deg,
+    transparent 0%,
+    transparent 30%,
+    transparent 70%,
+    transparent 70%,
+    transparent 90%,
+    gold 90%,
+
     transparent 100%
   );
 }
