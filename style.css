@@ -1989,56 +1989,6 @@ Testimonials Section
   border-radius: 1rem;
 }
 
-/* .testi-container .testi-card-body {
-  min-height: 27rem;
-}
-
-@media (max-width: 1400px) {
-  .testi-container .testi-card-body {
-    min-height: 29rem;
-  }
-}
-
-@media (max-width: 1250px) {
-  .testi-container .testi-card-body {
-    min-height: 30rem;
-  }
-}
-
-@media (max-width: 1150px) {
-  .testi-container .testi-card-body {
-    min-height: 32rem;
-  }
-} */
-
-.testi-container .testi-card-body {
-  min-height: 27rem;
-}
-
-@media (max-width: 1400px) {
-  .testi-container .testi-card-body {
-    min-height: 29rem;
-  }
-}
-
-@media (max-width: 1250px) {
-  .testi-container .testi-card-body {
-    min-height: 30rem;
-  }
-}
-
-@media (max-width: 1150px) {
-  .testi-container .testi-card-body {
-    min-height: 32rem;
-  }
-}
-
-@media (max-width: 992px) {
-  .testi-container .testi-card-body {
-    min-height: fit-content;
-  }
-}
-
 .testi-card-body .quote {
   display: flex;
   align-items: center;
@@ -3111,3 +3061,53 @@ ABSOLUTE FINAL STYLINGS AND CHANGES FOR - PRICING SECTION
 .service {
   box-shadow: none;
 }
+
+/* .testi-container .testi-card-body {
+  min-height: 27rem;
+}
+
+@media (max-width: 1400px) {
+  .testi-container .testi-card-body {
+    min-height: 29rem;
+  }
+}
+
+@media (max-width: 1250px) {
+  .testi-container .testi-card-body {
+    min-height: 30rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  .testi-container .testi-card-body {
+    min-height: 32rem;
+  }
+} */
+
+/* .testi-container .testi-card-body {
+  min-height: 27rem;
+}
+
+@media (max-width: 1400px) {
+  .testi-container .testi-card-body {
+    min-height: 29rem;
+  }
+}
+
+@media (max-width: 1250px) {
+  .testi-container .testi-card-body {
+    min-height: 30rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  .testi-container .testi-card-body {
+    min-height: 32rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .testi-container .testi-card-body {
+    min-height: fit-content;
+  }
+} */
