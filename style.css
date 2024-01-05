@@ -357,8 +357,6 @@ main {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.382);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Font+Name:wght@400;700&display=swap");
-
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -3105,3 +3103,11 @@ ABSOLUTE FINAL STYLINGS AND CHANGES FOR - PRICING SECTION
   margin-top: 3rem;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.512);
 } */
+
+.about-main-left {
+  box-shadow: none;
+}
+
+.service {
+  box-shadow: none;
+}
