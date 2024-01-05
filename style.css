@@ -1991,7 +1991,7 @@ Testimonials Section
   border-radius: 1rem;
 }
 
-.testi-container .testi-card-body {
+/* .testi-container .testi-card-body {
   min-height: 27rem;
 }
 
@@ -2011,7 +2011,7 @@ Testimonials Section
   .testi-container .testi-card-body {
     min-height: 32rem;
   }
-}
+} */
 
 .testi-card-body .quote {
   display: flex;
