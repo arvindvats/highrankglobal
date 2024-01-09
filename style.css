@@ -3301,7 +3301,8 @@ main {
 }
 
 .nav-link {
-  /* color: rgb(198, 198, 198) !important; */
+  color: rgb(221, 221, 221) !important;
+  font-weight: 500;
   /* color: rgb(223, 222, 222) !important; */
   /* color: rgb(233, 233, 233) !important; */
   /* font-weight: 300; */
@@ -3310,7 +3311,7 @@ main {
 }
 
 .nav-link:hover {
-  /* color: rgb(232, 232, 232) !important; */
+  color: rgb(233, 232, 232) !important;
   /* color: rgb(237, 237, 237) !important; */
   /* color: rgb(255, 255, 255) !important; */
 }
@@ -3320,7 +3321,8 @@ main {
 }
 
 .navbar-scrolled .nav-link {
-  /* color: rgb(198, 198, 198) !important; */
+  color: rgb(156, 154, 154) !important;
+  font-weight: 500;
   /* color: rgb(226, 226, 226) !important; */
   /* color: rgb(233, 233, 233) !important; */
   /* font-weight: 300; */
@@ -3329,7 +3331,7 @@ main {
 }
 
 .navbar-scrolled .nav-link:hover {
-  /* color: rgb(232, 232, 232) !important; */
+  color: rgb(188, 188, 188) !important;
   /* color: rgb(248, 248, 248) !important; */
   /* color: rgb(255, 255, 255) !important; */
 }
