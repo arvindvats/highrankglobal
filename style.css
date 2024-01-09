@@ -3560,3 +3560,15 @@ header {
     border-bottom-right-radius: 0.5rem;
   }
 }
+
+
+/* ---------------------------------------------------------------------------
+ABSOLUTE FINAL Modifications and touch ups! 
+--------------------------------------------------------------------------- */
+
+@media (max-width: 992px) {
+  .about-main-right {
+    max-height: 45rem;
+  }
+}
+
